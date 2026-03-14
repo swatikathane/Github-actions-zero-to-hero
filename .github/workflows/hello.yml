@@ -4,9 +4,7 @@ on:
  #  workflow_dispatch:
    push:
      branches: [main]
-  #   paths:
-  #     - '**.html'
-  pull_request:
+   pull_request:
     branches: [main]
 # these are jobs inside the workflow
 jobs:
