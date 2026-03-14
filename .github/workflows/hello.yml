@@ -3,9 +3,9 @@ name: Hello
 
 # runs on an automatic trigger, whenever change is pushed to branch (deployment)
 on:
-  workflow_dispatch:
-  # push:
-  #   branches: [main]
+ #  workflow_dispatch:
+   push:
+     branches: [main]
   #   paths:
   #     - '**.html'
 
